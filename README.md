@@ -10,7 +10,7 @@ class StarterApp < Sinatra::Base
 #####################
 # Models
 
-include BeerDb::Models
+include BeerDb::Models   # e.g. Beer, Brewery, Brand, etc.
 
 
 ##############################################
