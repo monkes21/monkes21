@@ -1,92 +1,37 @@
 # encoding: utf-8
 
-###
-# note: it's an addon to beerdb (get all libs via beerdb)
-require 'beerdb'
-
-
-# our own code
-
-require 'beerdb/service/version' # let it always go first
-
-
-
-module BeerDbService
-
-  def self.banner
-    "beerdb-service/#{VERSION} on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
-  end
-
-  def self.root
-    "#{File.expand_path( File.dirname( File.dirname(File.dirname(__FILE__))) )}"
-  end
-
-end # module BeerDbService
-
-
 ######
-# NB: use rackup to startup Sinatra service (see config.ru)
+# note: to run use
 #
-#  e.g. config.ru:
-#   require './boot'
-#   run BeerDb::Server
+#    $ ruby ./server.rb
 
 
-# 3rd party libs/gems
+class StarterApp < Sinatra::Base
 
-require 'sinatra/base'
+#####################
+# Models
 
+include BeerDb::Models
 
-# our own code
-
-
-# require 'logutils'
-# require 'logutils/db'
-
-
-
-module BeerDb
-
-class Service < Sinatra::Base
-
-  def self.banner
-    "beerdb-service #{BeerDb::VERSION} on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}] on Sinatra/#{Sinatra::VERSION} (#{ENV['RACK_ENV']})"
-  end
-
-  PUBLIC_FOLDER = "#{BeerDbService.root}/lib/beerdb/service/public"
-  VIEWS_FOLDER  = "#{BeerDbService.root}/lib/beerdb/service/views"
-
-  puts "[debug] beerdb-service - setting public folder to: #{PUBLIC_FOLDER}"
-  puts "[debug] beerdb-service - setting views folder to: #{VIEWS_FOLDER}"
-  
-  set :public_folder, PUBLIC_FOLDER   # set up the static dir (with images/js/css inside)   
-  set :views,         VIEWS_FOLDER    # set up the views dir
-
-  set :static, true   # set up static file routing
-
-  #####################
-  # Models
-
-  include Models
-
-  ##################
-  # Helpers
-  #
-  #  NB: helpers are just instance methods! no need in modular apps to use
-  #   helpers do
-  #    <code>
-  #  end
-
-  def path_prefix
-    request.env['SCRIPT_NAME']
-  end
 
   ##############################################
   # Controllers / Routing / Request Handlers
 
-  get '/' do
-    erb :index
-  end
+get '/' do
+
+  ## self-docu in json
+  data = {
+    endpoints: {
+      get_beer: {
+        doc: 'get beer by key',
+        url: '/beer/:key'
+      },
+    }
+  }
+
+  json_or_jsonp( data.to_json )
+end
+
 
   get '/notes/:key' do |key|
 
@@ -103,7 +48,7 @@ class Service < Sinatra::Base
       notes = Note.order( 'rating DESC, updated_at DESC' ).limit(10).all
     else
       ### todo: move to /u/:key/notes ??
-      
+
       # assume it's a user key
       user = User.find_by_key!( key )
       notes = Note.order( 'rating DESC, updated_at DESC' ).where( user_id: user.id ).all
@@ -130,9 +75,9 @@ class Service < Sinatra::Base
 
   get '/notes' do
     if params[:method] == 'post'
-      
+
       puts "  handle GET /notes?method=post"
-      
+
       user = User.find_by_key!( params[:user] )
       beer = Beer.find_by_key!( params[:beer] )
       rating = params[:rating].to_i
@@ -144,7 +89,7 @@ class Service < Sinatra::Base
         rating:  rating,
         place:   place
       }
-      
+
       note = Note.new
       note.update_attributes!( attribs )
     end
@@ -189,9 +134,9 @@ class Service < Sinatra::Base
 
   get '/drinks' do
     if params[:method] == 'post'
-      
+
       puts "  handle GET /drinks?method=post"
-      
+
       user = User.find_by_key!( params[:user] )
       beer = Beer.find_by_key!( params[:beer] )
       place  = params[:place]   # assumes for now a string or nil / pass through as is
@@ -201,7 +146,7 @@ class Service < Sinatra::Base
         beer_id: beer.id,
         place:   place
       }
-      
+
       drink = Drink.new
       drink.update_attributes!( attribs )
     end
@@ -261,15 +206,9 @@ def json_or_jsonp( json )
     content_type :json
     response = json
   end
-  
+
   response
 end
 
 
-end # class Server
-end #  module BeerDb
-
-
-# say hello
-puts BeerDbService.banner
-
+end # class StarterApp
