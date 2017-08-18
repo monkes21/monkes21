@@ -17,28 +17,13 @@ include BeerDb::Models   # e.g. Beer, Brewery, Brand, etc.
 # Controllers / Routing / Request Handlers
 
 get '/beer/:key' do |key|
-
-  if ['r', 'rnd', 'rand', 'random'].include?( key )
-    # special key for random beer
-    beer = Beer.rnd.first
-  else
-    beer = Beer.find_by!( key: key )
-  end
-
-  json_or_jsonp( beer.as_json_v2 )
+  beer = Beer.find_by!( key: key )
+  json_or_jsonp( beer )
 end
 
-
 get '/brewery/:key' do |key|
-
-  if ['r', 'rnd', 'rand', 'random'].include?( key )
-    # special key for random brewery
-    brewery = Brewery.rnd.first
-  else
-    brewery = Brewery.find_by!( key: key )
-  end
-
-  json_or_jsonp( brewery.as_json_v2 )
+  brewery = Brewery.find_by!( key: key )
+  json_or_jsonp( brewery )
 end
 
  ...
@@ -62,7 +47,7 @@ Step 3: Startup the web service (HTTP JSON API). Type:
     $ ruby ./server.rb
 
 That's it. Open your web browser and try some services
-running on your machine on port 9292 (e.g. `localhost:9292`). 
+running on your machine on port 9292 (e.g. `localhost:9292`).
 
 
 
@@ -77,4 +62,3 @@ Use it as you please with no restrictions whatsoever.
 Send them along to the
 [Open Beer & Brewery Database Forum/Mailing List](http://groups.google.com/group/beerdb).
 Thanks!
-

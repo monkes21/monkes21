@@ -9,14 +9,6 @@ puts '$LOAD_PATH:'
 pp $LOAD_PATH
 
 
-#######################################################
-# some more ruby core n stdlibs (NOT bundled in gems)
-require 'json'
-require 'yaml'
-require 'uri'
-require 'logger'
-
-
 
 ENV['RACK_ENV'] ||= 'development'
 
@@ -27,8 +19,7 @@ puts "ENV['RACK_ENV'] = #{ENV['RACK_ENV']}"
 
 require 'sinatra/base'    ## note: sinatra will pull in web server (e.g. rack)
 
-## require 'active_record'
-require 'beerdb/models'  ## note: will pull in active record
+require 'beerdb/models'   ## note: beerdb will pull in active record
 
 
 DB_CONFIG = {
@@ -36,7 +27,7 @@ DB_CONFIG = {
   database: 'beer.db'
 }
 
-puts "DB_CONFIG:"
+puts 'DB_CONFIG:'
 pp DB_CONFIG
 ActiveRecord::Base.establish_connection( DB_CONFIG )
 
