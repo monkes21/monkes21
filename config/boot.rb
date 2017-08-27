@@ -17,7 +17,7 @@ puts "ENV['RACK_ENV'] = #{ENV['RACK_ENV']}"
 
 # 3rd party libs/gems
 
-require 'sinatra/base'    ## note: sinatra will pull in web server (e.g. rack)
+require 'webservice'    ## note: webservice will pull in web server machinery (e.g. rack)
 
 require 'beerdb/models'   ## note: beerdb will pull in active record
 

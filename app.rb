@@ -6,7 +6,7 @@
 #    $ ruby ./server.rb
 
 
-class StarterApp < Sinatra::Base
+class StarterApp < Webservice::Base
 
   #####################
   # Models
@@ -18,7 +18,7 @@ class StarterApp < Sinatra::Base
   # Controllers / Routing / Request Handlers
 
 
-  ## self-docu in json
+  ## add self-docu in json
   get '/' do
 
     data = {
@@ -41,61 +41,26 @@ class StarterApp < Sinatra::Base
         }
       }
     }
-
-    json_or_jsonp( data )
   end
 
 
   # try special (reserved) keys for random beer first
-  get %r{/beer/(r|rnd|rand|random)} do
-    beer = Beer.rnd
-    json_or_jsonp( beer )
+  get '/beer/(r|rnd|rand|random)' do
+    Beer.rnd
   end
 
-  get '/beer/:key' do |key|
-    beer = Beer.find_by!( key: key )
-    json_or_jsonp( beer )
+  get '/beer/:key' do
+    Beer.find_by! key: params[ 'key' ]
   end
 
 
   # try special (reserved) keys for random brewery first
-  get %r{/brewery/(r|rnd|rand|random)} do
-    brewery = Brewery.rnd
-    json_or_jsonp( brewery )
+  get '/brewery/(r|rnd|rand|random)' do
+    Brewery.rnd
   end
 
-  get '/brewery/:key' do |key|
-    brewery = Brewery.find_by!( key: key )
-    json_or_jsonp( brewery )
+  get '/brewery/:key' do
+    Brewery.find_by! key: params[ 'key' ]
   end
-
-
-### helper for json or jsonp response (depending on callback para)
-
-private
-def json_or_jsonp( data )
-
-  ## convert data (array, hash, etc. to json)
-  ## -- try obj.as_json_v2 first
-  if data.respond_to? :as_json_v2
-    json = data.as_json_v2
-  else
-    json = data.to_json
-  end
-
-  callback = params.delete('callback')
-  response = ''
-
-  if callback
-    content_type :js
-    response = "#{callback}(#{json})"
-  else
-    content_type :json
-    response = json
-  end
-
-  response
-end
-
 
 end # class StarterApp

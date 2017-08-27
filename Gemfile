@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 ## web library/framework
-gem 'sinatra'
+gem 'webservice'    ## will incl./require rack
 
 ## database access
 gem 'activerecord'
@@ -12,4 +12,4 @@ gem 'sqlite3'
 
 ## our own gems
 gem 'beerdb-models'
-gem 'beerdb-note'
+## gem 'beerdb-note'

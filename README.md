@@ -5,7 +5,7 @@ using the
 [`beer.db`](https://github.com/openbeer).  Example:
 
 ```ruby
-class StarterApp < Sinatra::Base
+class StarterApp < Webservice::Base
 
 #####################
 # Models
@@ -16,14 +16,23 @@ include BeerDb::Models   # e.g. Beer, Brewery, Brand, etc.
 ##############################################
 # Controllers / Routing / Request Handlers
 
-get '/beer/:key' do |key|
-  beer = Beer.find_by!( key: key )
-  json_or_jsonp( beer )
+# try special (reserved) keys for random beer first
+get '/beer/(r|rnd|rand|random)' do
+  Beer.rnd
 end
 
-get '/brewery/:key' do |key|
-  brewery = Brewery.find_by!( key: key )
-  json_or_jsonp( brewery )
+get '/beer/:key' do
+  Beer.find_by! key: params[ 'key' ]
+end
+
+
+# try special (reserved) keys for random brewery first
+get '/brewery/(r|rnd|rand|random)' do
+  Brewery.rnd
+end
+
+get '/brewery/:key' do
+  Brewery.find_by! key: params[ 'key' ]
 end
 
  ...
