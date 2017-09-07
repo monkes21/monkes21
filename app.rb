@@ -17,33 +17,6 @@ class StarterApp < Webservice::Base
   ##############################################
   # Controllers / Routing / Request Handlers
 
-
-  ## add self-docu in json
-  get '/' do
-
-    data = {
-      endpoints: {
-        get_beer: {
-          doc: 'get beer by key',
-          url: '/beer/:key'
-        },
-        get_random_beer: {
-          doc: 'get random beer',
-          url: '/beer/(r|rnd|rand|random)'
-        },
-        get_brewery: {
-          doc: 'get brewery by key',
-          url: '/brewery/:key'
-        },
-        get_random_brewery: {
-          doc: 'get random brewery',
-          url: '/brewery/(r|rnd|rand|random)'
-        }
-      }
-    }
-  end
-
-
   # try special (reserved) keys for random beer first
   get '/beer/(r|rnd|rand|random)' do
     Beer.rnd
