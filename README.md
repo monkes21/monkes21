@@ -3,7 +3,7 @@
 21000 unique monkes, colorful 28x28 pixel art. Long bitcoin, Long monkes!
 
 
-## Self incribing, First is first
+## Self inscribing, First is first
 
 How to
 
