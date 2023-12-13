@@ -1,15 +1,12 @@
 const items = [
   {
     "id": "e7e1525e710c8eb81ab0faf35fe2d271e2659317d5789acf899d062b62795c17",
-    "edition": 0,
     "name": "#0",
     "image": "https://github.com/ordbase/monkesee-monkedo/raw/master/i/monke00000.png",
-    "imageHash": "e7e1525e710c8eb81ab0faf35fe2d271e2659317d5789acf899d062b62795c17",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 47631297
   },
   {
     "id": "f2d6006f052251ead69ad77561ebd1b6269fcc842788f7a96234400f3ee84647",
-    "edition": 1,
     "name": "#1",
     "image": "https://github.com/ordbase/monkesee-monkedo/raw/master/i/monke00001.png",
     "imageHash": "f2d6006f052251ead69ad77561ebd1b6269fcc842788f7a96234400f3ee84647",
@@ -41,35 +38,27 @@ const items = [
   },
   {
     "id": "757fdb6e39674c0621a2a72f3cbc0f34af83b63239d375a1750e00487b28f11f",
-    "edition": 5,
     "name": "#5",
     "image": "https://github.com/ordbase/monkesee-monkedo/raw/master/i/monke00005.png",
-    "imageHash": "757fdb6e39674c0621a2a72f3cbc0f34af83b63239d375a1750e00487b28f11f",
     "inscriptionNumber": 1
   },
   {
     "id": "617c3190f1cf68ef139c97e369762326f04e00d0bcd6b519e34f1160848ee414",
-    "edition": 6,
     "name": "#6",
     "image": "https://github.com/ordbase/monkesee-monkedo/raw/master/i/monke00006.png",
-    "imageHash": "617c3190f1cf68ef139c97e369762326f04e00d0bcd6b519e34f1160848ee414",
     "inscriptionNumber": 1
   },
   {
     "id": "d5d9af2611759ef357c801337dd4add68b301a8b248c191a625a07528d8f144d",
-    "edition": 7,
     "name": "#7",
     "image": "https://github.com/ordbase/monkesee-monkedo/raw/master/i/monke00007.png",
-    "imageHash": "d5d9af2611759ef357c801337dd4add68b301a8b248c191a625a07528d8f144d",
     "inscriptionNumber": 1
   },
   {
     "id": "a2656dd931d5456609c3b4f30e2bce164ae1bb0e849b22c2940c9ced714421c9",
-    "edition": 8,
     "name": "#8",
     "image": "https://github.com/ordbase/monkesee-monkedo/raw/master/i/monke00008.png",
-    "imageHash": "a2656dd931d5456609c3b4f30e2bce164ae1bb0e849b22c2940c9ced714421c9",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 47628884
   },
   {
     "id": "4621faf1850088da9d3f3f22899fdc1621080fda828f6a3aa9d2cdff13f870d5",
@@ -309,7 +298,7 @@ const items = [
     "name": "#38",
     "image": "https://github.com/ordbase/monkesee-monkedo/raw/master/i/monke00038.png",
     "imageHash": "c8c37891a2f5c9fd742833a8901ae1ee541410893c8af2f78b9e56b5877e2439",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 47628068
   },
   {
     "id": "c8c6116e6248b0caaf82bc1f8e7e422e4cf97b53f65995cf5d34e1269e818fe2",
@@ -445,7 +434,7 @@ const items = [
     "name": "#55",
     "image": "https://github.com/ordbase/monkesee-monkedo/raw/master/i/monke00055.png",
     "imageHash": "30a51bdec02d939aec5d2da5a71f110fdfc7f0d6e277a4f76e7fb7d2015141c4",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 47624292
   },
   {
     "id": "cad4a026b8a8e516d2ceef04a6918be04db4e1c53bdc7c8fe95be84a9a144f08",
@@ -557,7 +546,7 @@ const items = [
     "name": "#69",
     "image": "https://github.com/ordbase/monkesee-monkedo/raw/master/i/monke00069.png",
     "imageHash": "cb53b266f652f8db6d35b1e8203f1fbe36d263156897c46f7439800f35bdde80",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 47631689
   },
   {
     "id": "f6cb95c59522cf43d9789602f8e7a950cefdd3187c3eadf79de1142b78126386",
@@ -765,7 +754,7 @@ const items = [
     "name": "#95",
     "image": "https://github.com/ordbase/monkesee-monkedo/raw/master/i/monke00095.png",
     "imageHash": "b061b44d6e2e3dbfe81ba61f04bb869f970f606bb71e3af42879c653ed533b83",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 47631831
   },
   {
     "id": "ad755e93dd7655d9989b0d6137e9759e054b9ec81d649eee7ea8093fad183472",
@@ -781,7 +770,7 @@ const items = [
     "name": "#97",
     "image": "https://github.com/ordbase/monkesee-monkedo/raw/master/i/monke00097.png",
     "imageHash": "06cd79d82559695521fe162af74d3ea1cb9913f31292f745ee5bb31573e9028c",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 47631830
   },
   {
     "id": "7dfef556e28e910a3db373f3bd5188bad32f59e0086a4450f6fced90c05ac25e",
@@ -805,7 +794,7 @@ const items = [
     "name": "#100",
     "image": "https://github.com/ordbase/monkesee-monkedo/raw/master/i/monke00100.png",
     "imageHash": "9c77c4ba0822c6bd185d843d9bc5f020464d50a7afc52cdd286cfafc4f575c81",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 47625978
   },
   {
     "id": "b5c12186d821b681802bf6e3e71a5d39fb9fbd3bc45bce2849921f46a2496bb2",
