@@ -33,4 +33,5 @@ Mint web
 
 
 21000 Images (28x28px)
-- <https://github.com/ordbase/monkesee-monkedo>
+- <https://github.com/ordbase/monkesee-monkedo> - first 20000
+- <https://github.com/ordbase/letsrock>
