@@ -26,12 +26,15 @@ Mint web
   
 ---
 
-  Marketplace
-  - SOON!
+Marketplace
+  - <https://magiceden.io/ordinals/marketplace/monkes21>
+
+  ![](i/magiceden.png)
+
   
 ---
 
 
-21000 Images (28x28px)
-- <https://github.com/ordbase/monkesee-monkedo> - first 20000
-- <https://github.com/ordbase/letsrock>
+21000 Images (28×28px)
+- <https://github.com/ordbase/monkesee-monkedo> - first 20000 (0 to 19999)
+- <https://github.com/ordbase/letsrock>   - last 1000 (20000 to 20999)
