@@ -10,7 +10,7 @@ how to: at the left-bottom hash check box add your (28x28px) image file
 and it will show all matching inscriptions.  
 example: no monke 1734 (twin of 174) yet?
 
-![](i/monketwins.png)
+![](i/monke01734-available.png)
 
 
 
@@ -143,4 +143,7 @@ monke 20543 (twin of 20063)    - second-is-second   <br>
     - [20063, 20543]
 
 
-  
+
+![](i/monke20543-available.png)
+
+
