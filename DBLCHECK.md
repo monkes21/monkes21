@@ -4,6 +4,7 @@
 - 49489439 => **BINGO!  monkes21 no. 8554**
 - 49494307 => more monkes match ref no. 7943
 - 49500748 => **BINGO!  monkes21 no. 6850**
+- 49503157 => **BINGO!  monkes21 no. 8236**
 - 49503798 => **BINGO!  monkes21 no. 6609**
 - 49505491 => more monkes match ref no. 5262
 - 49505492 => more monkes match ref no. 20909
@@ -26,6 +27,7 @@
 - 49512927 => more monkes match ref no. 8757
 - 49512957 => more monkes match ref no. 8779
 - 49512960 => more monkes match ref no. 8799
+- 49515381 => more monkes match ref no. 4188
 - 49516799 => more monkes match ref no. 20717
 - 49517676 => more monkes match ref no. 8581
 - 49518836 => more monkes match ref no. 4482
@@ -35,6 +37,7 @@
 - 49524212 => more monkes match ref no. 202
 - 49524221 => more monkes match ref no. 7093
 - 49525368 => **BINGO!  monkes21 no. 14411**
+- 49525605 => more monkes match ref no. 9790
 - 49527250 => more monkes match ref no. 6855
 - 49528146 => more monkes match ref no. 688
 - 49528147 => more monkes match ref no. 183
@@ -50,6 +53,9 @@
 - 49538828 => more monkes match ref no. 12518
 - 49539288 => more monkes match ref no. 11089
 - 49539302 => more monkes match ref no. 11000
+- 49540876 =>   ??? not yet indexed; sorry
+- 49540899 =>   ??? not yet indexed; sorry
+- 49540900 =>   ??? not yet indexed; sorry
 - 49541053 => more monkes match ref no. 15638
 - 49541105 => more monkes match ref no. 15304
 - 49542857 => **BINGO!  monkes21 no. 19216**
@@ -147,6 +153,9 @@
 - 49590351 => more monkes match ref no. 18659
 - 49590650 => more monkes match ref no. 18659
 - 49590651 => more monkes match ref no. 19276
+- 49591031 => **BINGO!  monkes21 no. 14538**
+- 49591034 => **BINGO!  monkes21 no. 14537**
+- 49591183 => **BINGO!  monkes21 no. 14257**
 - 49592023 => **BINGO!  monkes21 no. 1341**
 - 49592027 => **BINGO!  monkes21 no. 1342**
 - 49592056 => more monkes match ref no. 15449
@@ -195,3 +204,5 @@
 - 49693715 =>   ??? not yet indexed; sorry
 - 49780752 =>   ??? not yet indexed; sorry
 - 50044011 =>   ??? not yet indexed; sorry
+- 50316446 =>   ??? not yet indexed; sorry
+- 50383501 =>   ??? not yet indexed; sorry
