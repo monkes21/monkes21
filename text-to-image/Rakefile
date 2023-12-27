@@ -1,0 +1,38 @@
+require 'hoe'
+require './lib/monkes21/version.rb'
+
+###
+# hack/ quick fix for broken intuit_values - overwrite with dummy
+class Hoe
+   def intuit_values( input ); end
+end
+
+
+
+Hoe.spec 'monkes21' do
+
+  self.version = Pixelart::Module::Monkes21::VERSION
+
+  self.summary = "monkes21 gem - generate your own monkes twenty one 28×28 pixel avatar images from the 100+ official text attributes (via built-in spritesheet); incl. 2x/4x/8x zoom for bigger sizes and more"
+  self.description = summary
+
+  self.urls    = { home: 'https://github.com/orc721/monkes21' }
+
+  self.author  = 'Gerald Bauer'
+  self.email   = 'wwwmake@googlegroups.com'
+
+  # switch extension to .markdown for gihub formatting
+  self.readme_file  = 'README.md'
+  self.history_file = 'CHANGELOG.md'
+
+  self.extra_deps = [
+    ['artfactory', '>= 1.0.0'],
+  ]
+
+  self.licenses = ['Public Domain']
+
+  self.spec_extras = {
+    required_ruby_version: '>= 2.3'
+  }
+
+end

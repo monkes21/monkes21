@@ -1,7 +1,7 @@
 The Do-It-Yourself (DIY) [Factory of Modern Originals (FoMO)](https://github.com/profilepic/originals) Presents
 
 
-# Monkes TWenty One / Monkes 21  (Pixel Avatar)
+# Monkes Twenty One / Monkes 21  (Pixel Avatar)
 
 Yes, you can! Generate your own monkes twenty one 28×28 pixel avatar images from the 100+ official text attributes (via built-in spritesheet); incl. 2x/4x/8x zoom for bigger sizes and more
 
