@@ -18,7 +18,7 @@ pp items[0,2]
 
 
 ## note: MUST start at 0!!!!
-items = items[0,10000]    ## cut-off - first 100, etc.
+#  items = items[0,10000]    ## cut-off - first 100, etc.
 items.each_with_index do |item,i|
     num = '%05d' % i
     path = "./hashcheck/#{num}.json"

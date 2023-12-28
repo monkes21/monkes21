@@ -23,8 +23,8 @@
   - [ ] ![](https://github.com/ordbase/monkesee-monkedo/raw/master/i/monke18417.png) monke 18417  (twin of 2817)     - second-is-second 
   - [ ] ![](https://github.com/ordbase/monkesee-monkedo/raw/master/i/monke19206.png) monke 19206  (twin of 14136)    - second-is-second  
   - [ ] ![](https://github.com/ordbase/letsrock/blob/master/i/rock543.png) monke 20543 (twin of 20063)    - second-is-second   
-- [ ] Once Complete Update Magic Eden  - PLUS Incl. All Attributes / Traits
-- [ ] Add Listing to OKX Market
+- [x] Once Complete Update Magic Eden  - PLUS Incl. All Attributes / Traits
+- [x] Add Listing to OKX Market
 - [ ] Add Listing to Ordinals Walllet Market
 
 
