@@ -18,7 +18,7 @@ pp items[0,2]
 
 
 ## note: MUST start at 0!!!!
-items = items[0,1000]    ## cut-off - first 100, etc.
+items = items[0,10000]    ## cut-off - first 100, etc.
 items.each_with_index do |item,i|
     num = '%05d' % i
     path = "./hashcheck/#{num}.json"
@@ -26,9 +26,18 @@ items.each_with_index do |item,i|
     if File.exist?( path )
         ## skip; already checked
     else
-      puts "==> #{i}/#{items.size} #{item['name']}..."
+        ## note: start counting at 0/0
+      puts "==> #{i}/#{items.size-1} #{item['name']}..."
       hash = item['id']
       data = Ordinalsbot.hashcheck( hash )
+
+      puts "  #{data['status']} #{data['count']}"
+
+      if data['status'] != 'ok'
+        puts "!! ERROR - expected status ok, got:"
+        pp data
+        exit 1
+      end
 
       write_json( path, data )
     end

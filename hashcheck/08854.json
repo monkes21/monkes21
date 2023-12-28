@@ -1,0 +1,31 @@
+{
+  "status": "ok",
+  "results": [
+    {
+      "txid": "ec6f431daf6f0d11bd3581bfdf1a5be6f26a3c79f7b51c19f1161e1e62a64a35",
+      "inputindex": "0",
+      "inscriptionid": "ec6f431daf6f0d11bd3581bfdf1a5be6f26a3c79f7b51c19f1161e1e62a64a35i0",
+      "inscriptionnumber": null,
+      "blockheight": "822007",
+      "contenttypestr": "image/png",
+      "contenthash": "dc35caa4ad2234386e3ea92e044b8eaa94013685b766489221cc1d3b48e12d1b",
+      "contentlength": "236",
+      "createdat": "2023-12-19T22:15:15.618Z"
+    },
+    {
+      "txid": "79ea6310576e189340c1d5542349eb5693983ce4ea5eb11aaf9df47a456c55a6",
+      "inputindex": "0",
+      "inscriptionid": "79ea6310576e189340c1d5542349eb5693983ce4ea5eb11aaf9df47a456c55a6i0",
+      "inscriptionnumber": null,
+      "blockheight": "822032",
+      "contenttypestr": "image/png",
+      "contenthash": "dc35caa4ad2234386e3ea92e044b8eaa94013685b766489221cc1d3b48e12d1b",
+      "contentlength": "236",
+      "createdat": "2023-12-20T01:50:30.735Z"
+    }
+  ],
+  "count": 2,
+  "totalItems": "2",
+  "totalPages": 1,
+  "currentPage": 1
+}
