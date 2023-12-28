@@ -1,6 +1,9 @@
-require 'pixelart'
+###
+#  to run use:
+#    $ ruby sandbox/sketch.rb
 
-require_relative 'base'
+
+require 'monkes21'
 
 
 specs = read_csv( "./monkes21.csv" )
@@ -8,6 +11,7 @@ puts "   #{specs.size} record(s)"
 
 
 
+## note: 57px = 28px*2+1 
 composite = ImageComposite.new( 10, 10, width: 57, height: 57 )
 
 specs[0,1000].each_with_index do |rec, i|
@@ -18,7 +22,7 @@ specs[0,1000].each_with_index do |rec, i|
     ## note: skip background
     spec = [base] + accessories
 
-    img = generate( *spec ).sketch( 1, line: 1)
+    img = Monke21::Image.generate( *spec ).sketch( 1, line: 1)
      
     num = "%05d" % i
     puts "==> monke #{num}"
