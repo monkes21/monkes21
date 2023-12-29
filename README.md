@@ -19,14 +19,16 @@ in the tabular [monkes21/mint.csv](https://github.com/orc721/market/blob/master/
 
 ---
 
-Mint web
+### Mint web
+
   - <https://orc721.github.io/monkes21>
 
   ![](i/monkes21.png)
   
 ---
 
-Marketplace
+### Marketplace
+
   - <https://magiceden.io/ordinals/marketplace/monkes21>
 
   ![](i/magiceden.png)
@@ -35,6 +37,7 @@ Marketplace
 ---
 
 
-21000 Images (28×28px)
+### 21000 Images (28×28px)
+
 - <https://github.com/ordbase/monkesee-monkedo> - first 20000 (0 to 19999)
 - <https://github.com/ordbase/letsrock>   - last 1000 (20000 to 20999)
