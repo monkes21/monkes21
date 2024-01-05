@@ -89,6 +89,7 @@ specs.each_with_index do |rec, i|
 
     img.save( "./tmp3/#{key}.png" )
     img.zoom(2).save( "./tmp3/@2x/#{key}@2x.png" )
+    img.zoom(10).save( "./tmp3/@10x/#{key}@10x.png" )
     
     composite << img  
 end
