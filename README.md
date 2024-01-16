@@ -5,7 +5,8 @@
 
 ## Self inscribing, First is first
 
-How to
+<details>
+<summary markdown="1">How to</summary>
 
 
 - Monkes Twenty One is a free self inscribe collection, only the first confirmed inscription of each image (in 28x28px) is counted as part of the collection.
@@ -15,6 +16,9 @@ How to
 - Always use the check button as some monkes will be inscribed but not be confirmed taken.  Find the confirmed taken monkes
 in the tabular [monkes21/mint.csv](https://github.com/orc721/market/blob/master/monkes21/mint.csv) dataset.      
 - Questions? Comments? Join the [ordbase community discord](https://discord.gg/dDhvHKjm2t).
+
+
+</details>
 
 
 ---
@@ -34,10 +38,29 @@ in the tabular [monkes21/mint.csv](https://github.com/orc721/market/blob/master/
   ![](i/magiceden.png)
 
   
+  - <https://www.okx.com/web3/marketplace/nft/collection/btc/monkes-twenty-one-monkes21>
+
+
 ---
 
 
 ## More About Monkes 21
+
+Find all 21 000 reference images (28×28px) in [/inscribe](inscribe):
+
+![](inscribe/monke00000.png)
+![](inscribe/monke00001.png)
+![](inscribe/monke00002.png)
+![](inscribe/monke00003.png)
+![](inscribe/monke00004.png)
+![](inscribe/monke00005.png)
+![](inscribe/monke00006.png)
+![](inscribe/monke00007.png)
+![](inscribe/monke00008.png)
+![](inscribe/monke00009.png)
+...
+
+
 
 Find all meta data in the [monkes21.csv](monkes21.csv) tabular dataset e.g.
 
@@ -135,7 +158,28 @@ Find the composite fam image of all 21000 in a 200×105 grid in [monkes21.png](m
 
 
 
-### 21000 Images (28×28px)
+
+
+## Builders Corner - Yes, You Can
+
+For reference find all (generative) attributes (base types and accessories) in 28×28px in [**/attributes @ ordbase/monkesee-monkedo**](https://github.com/ordbase/monkesee-monkedo/tree/master/attributes) &
+[**/attributes @ ordbase/letsrock »**](https://github.com/ordbase/letsrock/tree/master/attributes)
+
+Yes, you can regenerate this monkes 28px set 
+using the generate_meta script
+and using the generate script to generate all images
+from the tabular datasets. 
 
 - <https://github.com/ordbase/monkesee-monkedo> - first 20000 (0 to 19999)
 - <https://github.com/ordbase/letsrock>   - last 1000 (20000 to 20999)
+
+
+
+
+## Questions? Comments?
+
+
+Join us in the [Ordbase (Incl Ordgen / ORC-721) discord (chat server)](https://discord.gg/dDhvHKjm2t). Yes you can.
+Your questions and commentary welcome.
+
+Or post them over at the [Help & Support](https://github.com/geraldb/help) page. Thanks.

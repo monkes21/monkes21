@@ -25,7 +25,7 @@
   - [ ] ![](https://github.com/ordbase/letsrock/blob/master/i/rock543.png) monke 20543 (twin of 20063)    - second-is-second   
 - [x] Once Complete Update Magic Eden  - PLUS Incl. All Attributes / Traits
 - [x] Add Listing to OKX Market
-- [ ] Add Listing to Ordinals Walllet Market
+- [ ] Add Listing to Ordinals Wallet Market
 
 
 ## Your Ideas Welcome
