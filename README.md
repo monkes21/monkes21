@@ -18,7 +18,7 @@ the fam in 4x
 
 ![](i/rocklines@4x.png)
 
-Find all 21 reference images (28×28px) in [/rocklines/inscribe](inscribe):
+Find all 21 reference images (28×28px) in [/rocklines/inscribe](rocklines/inscribe):
 
 ![](rocklines/inscribe/rockline0.png)
 ![](rocklines/inscribe/rockline1.png)
