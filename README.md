@@ -3,6 +3,38 @@
 21000 unique monkes, colorful 28x28 pixel art. Long bitcoin, Long monkes!
 
 
+
+## What's News?
+
+Twenty One Line Art (Monkes 21) Rocks! - New Special Art Edition
+
+
+
+## Special Art Collection - Editions (21 Max. Each)
+
+### 21 Rock Lines
+
+the fam in 4x
+
+![](i/rocklines@4x.png)
+
+Find all 21 reference images (28×28px) in [/rocklines/inscribe](inscribe):
+
+![](rocklines/inscribe/rockline0.png)
+![](rocklines/inscribe/rockline1.png)
+![](rocklines/inscribe/rockline2.png)
+![](rocklines/inscribe/rockline3.png)
+![](rocklines/inscribe/rockline4.png)
+![](rocklines/inscribe/rockline5.png)
+![](rocklines/inscribe/rockline6.png)
+![](rocklines/inscribe/rockline7.png)
+![](rocklines/inscribe/rockline8.png)
+![](rocklines/inscribe/rockline9.png)
+...
+
+
+
+
 ## Self inscribing, First is first
 
 <details>
