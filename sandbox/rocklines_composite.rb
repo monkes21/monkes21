@@ -4,11 +4,10 @@ require 'pixelart'
 
 
 ids  = [
-    1, 6, 7, 8, 9, 10, 11, 
-    12, 17
+    7, 9, 10, 11, 17
 ]
 
-cols = 7
+cols = 5
 rows = ids.size / cols 
 rows += 1    if ids.size % cols != 0
 fam = ImageComposite.new( cols, rows, height: 28, width: 28 )
