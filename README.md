@@ -12,7 +12,35 @@ Twenty One Line Art (Monkes 21) Rocks! - New Special Art Edition
 
 ## Special Art Collection - Editions (21 Max. Each)
 
-### 21 Rock Lines
+**Marketplace**
+
+  - <https://magiceden.io/ordinals/marketplace/monkes21-specials>
+
+
+
+### 21 (Monke) Sketches (1Bit / Black & White) - March 2024
+
+the fam in 2x
+
+![](i/sketches@2x.png)
+
+Find all 21 reference images (57×57px) in [/sketches/inscribe](sketches/inscribe):
+
+![](sketches/inscribe/sketch0.png)
+![](sketches/inscribe/sketch1.png)
+![](sketches/inscribe/sketch2.png)
+![](sketches/inscribe/sketch3.png)
+![](sketches/inscribe/sketch4.png)
+![](sketches/inscribe/sketch5.png)
+![](sketches/inscribe/sketch6.png)
+![](sketches/inscribe/sketch7.png)
+![](sketches/inscribe/sketch8.png)
+![](sketches/inscribe/sketch9.png)
+...
+
+
+
+### 21 Rock Lines   - Feb 2024
 
 the fam in 4x
 
@@ -36,6 +64,9 @@ Find all 21 reference images (28×28px) in [/rocklines/inscribe](rocklines/inscr
 
 
 ## Self inscribing, First is first
+
+<!--
+
 
 <details>
 <summary markdown="1">How to</summary>
@@ -62,6 +93,11 @@ in the tabular [monkes21/mint.csv](https://github.com/orc721/market/blob/master/
   ![](i/monkes21.png)
   
 ---
+
+-->
+
+
+
 
 ### Marketplace
 
