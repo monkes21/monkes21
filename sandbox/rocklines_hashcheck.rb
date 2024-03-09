@@ -10,11 +10,14 @@ require 'ordinals'
 missing = []
 
 
+overwrite = false    ## use cached version or overwrite? 
+
+
 ids = (0..20).to_a
 ids.each do |id|
     path = "./rocklines/hashcheck/#{id}.json"
 
-    if File.exist?( path )
+    if !overwrite && File.exist?( path )
         ## skip; already checked
     else
         ## note: start counting at 0/0
