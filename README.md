@@ -18,6 +18,31 @@ Twenty One Line Art (Monkes 21) Rocks! - New Special Art Edition
 
 
 
+
+## 21 Monke Minis (12px)   
+
+the fam in 8x
+
+![](i/minis@8)
+
+
+Find all 21 reference images (12×12px) in [/minis/inscribe](minis/inscribe):
+
+![](minis/inscribe/mini0.png)
+![](minis/inscribe/mini1.png)
+![](minis/inscribe/mini2.png)
+![](minis/inscribe/mini3.png)
+![](minis/inscribe/mini4.png)
+![](minis/inscribe/mini5.png)
+![](minis/inscribe/mini6.png)
+![](minis/inscribe/mini7.png)
+![](minis/inscribe/mini8.png)
+![](minis/inscribe/mini9.png)
+...
+
+
+
+
 ### 21 (Monke) Sketches (1Bit / Black & White) - March 2024
 
 the fam in 2x
