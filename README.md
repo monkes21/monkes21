@@ -23,7 +23,7 @@ Twenty One Line Art (Monkes 21) Rocks! - New Special Art Edition
 
 the fam in 8x
 
-![](i/minis@8)
+![](i/minis@8x.png)
 
 
 Find all 21 reference images (12×12px) in [/minis/inscribe](minis/inscribe):
