@@ -8,9 +8,21 @@
 
 Twenty One Line Art (Monkes 21) Rocks! - New Special Art Edition
 
+For more updates, see [**@Monkes21 on X »**](https://twitter.com/monkes21)
+
+
 
 
 ## Special Art Collection - Editions (21 Max. Each)
+
+**Mint web**
+
+  - <https://orc721.github.io/monkes21>
+
+  ![](i/monkes21-minis.png)
+
+
+---
 
 **Marketplace**
 
@@ -19,7 +31,7 @@ Twenty One Line Art (Monkes 21) Rocks! - New Special Art Edition
 
 
 
-## 21 Monke Minis (12px)   
+## 21 Monke Minis (12px)   -  MINTING NOW!
 
 the fam in 8x
 
