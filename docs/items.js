@@ -1,7 +1,7 @@
-// items.js generated on 2024-03-14 11:35:35 UTC
-//   - mint count at 5
+// items.js generated on 2024-03-14 12:45:59 UTC
+//   - mint count at 9
 
- const mintCount = 5;
+ const mintCount = 9;
  const items = [
   {
     "id": "344398b3145185f953fa4702a776591e0a1ff9f3c587d194d6f722276f37b3bc",
@@ -43,7 +43,7 @@
     "id": "e31bda4b7785dc4b74b6341f110b1f15e0c7b18ce50fa7b0e4a0518ea6cdd6dc",
     "name": "#6",
     "image": "https://github.com/orc721/monkes21/raw/master/minis/inscribe/mini6.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 64348215
   },
   {
     "id": "673867f783970c6dd00db1a336260107a4b18765aa5af193acc0f7072572fa87",
@@ -55,13 +55,13 @@
     "id": "b2fcb706d5f60e1dd3852e3b9afd4abf4c3c8262e8921a97c1b9e4574c0cbff5",
     "name": "#8",
     "image": "https://github.com/orc721/monkes21/raw/master/minis/inscribe/mini8.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 64348214
   },
   {
     "id": "5b2e8280f6da26b0bfeee3dbae00c0b3044a0b3f6dbd175a5002b531c092fd13",
     "name": "#9",
     "image": "https://github.com/orc721/monkes21/raw/master/minis/inscribe/mini9.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 64348216
   },
   {
     "id": "7db87b7c808be353a55419598d178fb1c7d94989cc9dc45611302287639f161d",
@@ -127,6 +127,6 @@
     "id": "f59f908b6ef8ebb002077ffd3eab94823b1c05c04cfea5b13fda133b60134418",
     "name": "#20",
     "image": "https://github.com/orc721/monkes21/raw/master/minis/inscribe/mini20.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 64348213
   }
 ];
