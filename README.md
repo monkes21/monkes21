@@ -20,7 +20,9 @@ For more updates, see [**@Monkes21 on X »**](https://twitter.com/monkes21)
 
   - <https://orc721.github.io/monkes21>
 
+<!-- 
   ![](i/monkes21-minis.png)
+-->
 
 
 ---
@@ -31,14 +33,27 @@ For more updates, see [**@Monkes21 on X »**](https://twitter.com/monkes21)
 
 
 
-
-### 21 Rock Minis (12px) - May 2024  
-
-SOON!
+### Upcoming - SOON!
 
 
+Your ideas and comments more than welcome. See [Questions & Comments](#questions-comments).
 
-### 21 Monke Minis (12px)  -  April 2024
+
+
+
+#### 21 Rock Minis (12px) - May 2024  
+
+SOON!  
+
+
+
+
+
+
+### Past Editions (Max. 21) - Ty / Thank You - All Minted Out
+
+
+#### 21 Monke Minis (12px)  -  April 2024
 
 the fam in 8x
 
@@ -61,8 +76,7 @@ Find all 21 reference images (12×12px) in [/minis/inscribe](minis/inscribe):
 
 
 
-
-### 21 (Monke) Sketches (1Bit / Black & White) - March 2024
+#### 21 (Monke) Sketches (1Bit / Black & White) - March 2024
 
 the fam in 2x
 
@@ -84,7 +98,7 @@ Find all 21 reference images (57×57px) in [/sketches/inscribe](sketches/inscrib
 
 
 
-### 21 Rock Lines   - Feb 2024
+#### 21 Rock Lines   - Feb 2024
 
 the fam in 4x
 
@@ -103,6 +117,7 @@ Find all 21 reference images (28×28px) in [/rocklines/inscribe](rocklines/inscr
 ![](rocklines/inscribe/rockline8.png)
 ![](rocklines/inscribe/rockline9.png)
 ...
+
 
 
 
