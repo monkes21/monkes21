@@ -1,7 +1,7 @@
-// items.js generated on 2024-03-15 09:06:52 UTC
-//   - mint count at 20
+// items.js generated on 2024-03-16 10:20:17 UTC
+//   - mint count at 21
 
- const mintCount = 20;
+ const mintCount = 21;
  const items = [
   {
     "id": "344398b3145185f953fa4702a776591e0a1ff9f3c587d194d6f722276f37b3bc",
@@ -37,7 +37,7 @@
     "id": "d6f1d8f4d137f00efcbfbe99cf70fe28b41d3d416288f42ba2b26ce384f921b1",
     "name": "#5",
     "image": "https://github.com/orc721/monkes21/raw/master/minis/inscribe/mini5.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 64583433
   },
   {
     "id": "e31bda4b7785dc4b74b6341f110b1f15e0c7b18ce50fa7b0e4a0518ea6cdd6dc",

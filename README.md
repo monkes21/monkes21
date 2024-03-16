@@ -4,9 +4,10 @@
 
 
 
+
 ## What's News?
 
-Twenty One Line Art (Monkes 21) Rocks! - New Special Art Edition
+Twenty One New Special Art Edition (Max. 21) Every Month!
 
 For more updates, see [**@Monkes21 on X »**](https://twitter.com/monkes21)
 
@@ -31,7 +32,13 @@ For more updates, see [**@Monkes21 on X »**](https://twitter.com/monkes21)
 
 
 
-## 21 Monke Minis (12px)   -  MINTING NOW!
+### 21 Rock Minis (12px) - May 2024  
+
+SOON!
+
+
+
+### 21 Monke Minis (12px)  -  April 2024
 
 the fam in 8x
 
