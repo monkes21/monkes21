@@ -40,9 +40,10 @@ For more updates, see [**@Monkes21 on X »**](https://twitter.com/monkes21)
 #### May 2024  
 
 Let's do 21 Rock (& Block) Minis (12px)?
-Or Doge (28px)? Why Why Not?
+Or 21 Doge (28px)? Why? Why Not?
+
 Let's do ....?  Yes, your ideas and comments more than welcome.
-See [Questions & Comments](#questions-comments).
+See [Questions & Comments](#questions-comments)
   
 
 
