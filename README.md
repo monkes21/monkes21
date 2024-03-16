@@ -33,25 +33,22 @@ For more updates, see [**@Monkes21 on X »**](https://twitter.com/monkes21)
 
 
 
+
 ### Upcoming - SOON!
 
 
-Your ideas and comments more than welcome. See [Questions & Comments](#questions-comments).
+#### May 2024  
+
+Let's do 21 Rock (& Block) Minis (12px)?
+Or Doge (28px)? Why Why Not?
+Let's do ....?  Yes, your ideas and comments more than welcome.
+See [Questions & Comments](#questions-comments).
+  
 
 
 
 
-#### 21 Rock Minis (12px) - May 2024  
-
-SOON!  
-
-
-
-
-
-
-### Past Editions (Max. 21) - Ty / Thank You - All Minted Out
-
+### All Minted Out - Historic Editions (Max. 21) - Thank You - Ty 
 
 #### 21 Monke Minis (12px)  -  April 2024
 
