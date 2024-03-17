@@ -1,0 +1,132 @@
+<script src="https://learnpixelart.github.io/pixelart.js/dataset.js/dataset.js"></script>
+<script src="https://learnpixelart.github.io/pixelart.js/pixelart.js/composite.js"></script>
+<script src="https://learnpixelart.github.io/pixelart.js/pixelart.js/spritesheet.js"></script>
+<script src="https://learnpixelart.github.io/pixelart.js/pixelart.js/generator.js"></script>
+
+
+<style>
+  fieldset div {
+      display: inline-block;
+      width: 240px;
+  }
+</style>
+
+
+<p style="font-size: 80%;">
+    <a href="https://github.com/orc721/monkes21">« Monkes Twenty One</a>
+</p>
+
+
+<h1>Build Your Own Monke Twenty One (28×28) Wizard</h1>
+
+
+<p>Yes, you can!
+Build your own originals that you
+own 100% forever.
+Questions? Comments? 
+Join us in the <a href="https://discord.gg/dDhvHKjm2t">Ordbase discord (chat server)</a>.
+</p>
+
+
+
+<table>
+  <tr>
+    <td width="248px" valign="top">
+      <!-- first column -->
+
+      10x (240×240px)<br>
+      <canvas id="monke10x"></canvas>  <br>
+
+      4x (112×112px)<br>
+      <canvas id="monke4x"></canvas>  <br>
+
+      1x (28×28px)<br>
+      <canvas id="monke1x"></canvas>
+
+    </td>
+    <td><!-- second column -->
+
+
+<%= render_options( MONKE ) %>
+
+</td>
+</tr>
+</table>
+
+<p style="font-size: 80%;">
+   Open source public domain.
+   No rights reserved.
+  See
+  <a href="https://github.com/orc721/monkes21/tree/master/builder">/monkes21/builder »</a>
+</p>
+
+
+<script>
+
+     var g;    // (global) generator  (see document load)
+
+
+   function autoupdate() {
+    let els = document.querySelectorAll( "input[type='radio']" );
+       for( let el of Array.from( els ) ) {
+          el.addEventListener('click', () => update() );
+       }
+
+     // select orange orc / laser eyes red / hoodie orange
+     let el = document.querySelector( "input[value='orange orc']" );
+     el.checked = true;
+     el = document.querySelector( "input[value='lasereyes red']" );
+     el.checked = true;
+     el = document.querySelector( "input[value='hoodie orange']" );
+     el.checked = true;
+   }
+
+  function update() {
+    let els = document.querySelectorAll( "input[type='radio']" );
+       // console.log( els );
+
+       let attributes = [];
+ 
+       for( let el of Array.from( els ) ) {
+         let value = el.value
+
+         if (el.checked) {
+           console.log( value );
+
+           if( value == 'none' ) {
+              continue;
+           }
+
+           attributes.push( value );
+         }
+       }
+
+       console.log( attributes );
+       generate( ...attributes );
+      }
+
+  function generate( ...args ) {
+       g.generate( '#monke10x', ...args, {zoom: 10, background: '#FD5401'} );
+       g.generate( '#monke4x', ...args, {zoom: 4, background: '#FD5401'} );
+       g.generate( '#monke1x', ...args, {zoom: 1, background: '#FD5401'} );
+  }
+
+
+document.addEventListener( "DOMContentLoaded", async () => {
+
+  const dataset = Dataset.parseCsv( `<%= spritesheet( 'tmp/spritesheet.csv' ) %>`
+                                  );
+
+   const composite = await ImageComposite.read( 'spritesheet.png', 28, 28 );
+   const sheet = new Spritesheet( composite, dataset );
+
+   sheet.drawSprites();
+
+
+   g = Generator.use( sheet );
+
+    autoupdate();
+    update();
+});
+
+</script>
