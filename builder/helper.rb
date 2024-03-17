@@ -99,18 +99,7 @@ TXT
 
 options.each_with_index do |option,i|
 
-  value = option.downcase
-
-  ## auto-extract qualifiers e.g. (m)ale/(f)emale
-  qualifiers = if    value.index( '(m)' )   then ['m']
-               elsif value.index( '(f)' )   then ['f']
-               elsif value.index( '(m/f)' ) then ['m', 'f']
-               else  []
-               end
-
-  value = value.sub( '(m)', '' ).sub( '(f)', '' ).sub( '(m/f)', '' ).sub( '¹', '' )
-  value = value.strip
-
+  value = option.downcase.strip
 
   label = option
   id    = "#{name}#{i}"    ## use for input (dom) id / label for [id]
@@ -126,12 +115,8 @@ buf2 = String.new( '' )
 if sprites
   if ['none'].include?( value )
     ## do nothing  - no sprite(s) - for none & friends
-  elsif qualifiers.empty?
-    buf2 +=  sprite_tag( value )
   else
-    qualifiers.each do |qualifier|
-      buf2 +=  sprite_tag( "#{value} (#{qualifier})" )
-    end
+    buf2 +=  sprite_tag( value )
   end
   ## note: add sprites (spans) inside label e.g. <label> HERE </label>
   buf += label_tag( buf2 + label, id: id )
