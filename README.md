@@ -4,12 +4,34 @@
 
 
 
-
 ## What's News?
 
 Twenty One New Special Art Edition (Max. 21) Every Month!
 
 For more updates, see [**@Monkes21 on X »**](https://twitter.com/monkes21)
+
+
+
+## Do-It-Yourself (DIY) - Build Your Own Monkes 
+
+Yes, you can.  First quick (do-it-yourself) version.
+[**Build your own Monke Twenty One (28×28px) Wizard »**](https://orc721.github.io/monke21/build).
+
+note - no (crypto) wallet interaction. right-click & save (as .PNG) to get your (free) monke in 1x, 4x or 10x. 
+
+
+
+
+
+## (Secondary) Markets
+
+- <https://magiceden.io/ordinals/marketplace/monkes21>
+- <https://magiceden.io/ordinals/marketplace/monkes21-specials>  
+- <https://www.okx.com/web3/marketplace/nft/collection/btc/monkes-twenty-one-monkes21>
+
+<!--
+  ![](i/magiceden.png)
+-->
 
 
 
@@ -23,15 +45,6 @@ For more updates, see [**@Monkes21 on X »**](https://twitter.com/monkes21)
 <!-- 
   ![](i/monkes21-minis.png)
 -->
-
-
----
-
-**Marketplace**
-
-  - <https://magiceden.io/ordinals/marketplace/monkes21-specials>
-
-
 
 
 ### Upcoming - SOON!
@@ -153,20 +166,6 @@ in the tabular [monkes21/mint.csv](https://github.com/orc721/market/blob/master/
 
 -->
 
-
-
-
-### Marketplace
-
-  - <https://magiceden.io/ordinals/marketplace/monkes21>
-
-  ![](i/magiceden.png)
-
-  
-  - <https://www.okx.com/web3/marketplace/nft/collection/btc/monkes-twenty-one-monkes21>
-
-
----
 
 
 ## More About Monkes 21
