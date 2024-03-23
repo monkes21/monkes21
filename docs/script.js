@@ -103,11 +103,12 @@ function addListener(i) {
 }
 
 async function imClicked() {
-    const response = await fetch(`https://api2.ordinalsbot.com/search?hash=${this.id}}`, {
+    const response = await fetch(`https://api2.ordinalsbot.com/search?hash=${this.id}`, {
         headers: {
             'x-api-key': '5949f0ce-ce56-4f93-a1d2-5468de231da0'
         }
     });
+
 
     if (!response.ok) {
 
