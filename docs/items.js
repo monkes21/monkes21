@@ -1,7 +1,7 @@
-// items.js generated on 2024-03-23 19:37:06 UTC
-//   - mint count at 0
+// items.js generated on 2024-03-23 20:36:40 UTC
+//   - mint count at 7
 
- const mintCount = 0;
+ const mintCount = 7;
  const items = [
   {
     "id": "4cea43a2a500ef996ef46e4b085dc9e4905c7815a6342c4352f08e5dc36347a3",
@@ -13,7 +13,7 @@
     "id": "7b296a179dc3a045de96005671d9757699357a8153ed747acf42f2e5bcf9b0ab",
     "name": "#1",
     "image": "https://github.com/orc721/monkes21/raw/master/goldcoins/inscribe/goldcoin1.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 65631074
   },
   {
     "id": "06bcf92cfcc8bcb487c3f65789050343d93cb84dfa998d06b084df2b81966533",
@@ -67,13 +67,13 @@
     "id": "e4b2d53030fbc2c3a63921cec3ad566a8ca80064c3f2a2b85471738a9cde1357",
     "name": "#10",
     "image": "https://github.com/orc721/monkes21/raw/master/goldcoins/inscribe/goldcoin10.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 65631112
   },
   {
     "id": "6706f9921281a03c5d7f2632fdc5a54f91fb9c4e5ee4bfb901fd93014bcaa12e",
     "name": "#11",
     "image": "https://github.com/orc721/monkes21/raw/master/goldcoins/inscribe/goldcoin11.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 65631097
   },
   {
     "id": "0de991ff77b8e28a667c9d0418bcdf92ce60274c5e53936736229af38d26f58a",
@@ -85,7 +85,7 @@
     "id": "150b9adc9552cbaa39a50cc53bb72ffd9bf334c933edbcaaedeb229fb77282cd",
     "name": "#13",
     "image": "https://github.com/orc721/monkes21/raw/master/goldcoins/inscribe/goldcoin13.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 65631071
   },
   {
     "id": "7c67222790353df98cd64ce78e6d1b29aad8f5a2b2a3a16230a1c75b0d7d30db",
@@ -97,19 +97,19 @@
     "id": "8fd0869443a4407cae4688787735dfaa28075e5d01e9e5bc539a5cc0cbb1c846",
     "name": "#15",
     "image": "https://github.com/orc721/monkes21/raw/master/goldcoins/inscribe/goldcoin15.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 65631091
   },
   {
     "id": "073dc8db44fae4db36876b0ec7b1adc6ce5baf7c6e9e072bb267d3ec9ac3561b",
     "name": "#16",
     "image": "https://github.com/orc721/monkes21/raw/master/goldcoins/inscribe/goldcoin16.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 65631075
   },
   {
     "id": "c6472f2444e88e46804d0787cac12b68ccf091e4933bde5f223ff030a06e96d8",
     "name": "#17",
     "image": "https://github.com/orc721/monkes21/raw/master/goldcoins/inscribe/goldcoin17.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 65631072
   },
   {
     "id": "90db93593eb3077a9747c1e88f649d40966dcc7b733077048fd371de1e09df52",
