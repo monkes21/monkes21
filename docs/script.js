@@ -102,38 +102,12 @@ function addListener(i) {
     console.log(`${name} event listener added`);
 }
 
-async function imClicked_ordinalsbot() {
-    const response = await fetch(`https://api2.ordinalsbot.com/search?hash=${this.id}`);
-
-    if (!response.ok) {
-
-        showError();
-        throw new Error("Bad Response", {
-            cause: {
-                response,
-            }
-        });
-    }
-    else {
-        const res = await response.json();
-        console.log(res);
-        showToast(res);
-    }
-
-}
-
-
 async function imClicked() {
-    const response = await fetch(
-        "https://bitpunks.love:3313/Utility/Inscriptions", 
-        {
-            body: `searchAll=true&area=&inscriptionNo=&inscription=&address=&protocol=&text=&hash=${this.id}`,
-            headers: {
-                "Content-Type": "application/x-www-form-urlencoded",
-            },
-            method: "post",
+    const response = await fetch(`https://api2.ordinalsbot.com/search?hash=${this.id}}`, {
+        headers: {
+            'x-api-key': '5949f0ce-ce56-4f93-a1d2-5468de231da0'
         }
-        );
+    });
 
     if (!response.ok) {
 
@@ -152,8 +126,7 @@ async function imClicked() {
 
 }
 
-
-function showToast_ordinalsbot(res) {
+function showToast(res) {
     let toast = document.createElement('div');
     toast.classList.add('alert');
     if (res.count >= 1) {
@@ -178,35 +151,6 @@ function showToast_ordinalsbot(res) {
         toast.remove();
     }, 6000);
 }
-
-
-
-function showToast(res) {
-    let toast = document.createElement('div');
-    toast.classList.add('alert');
-    if (res.length >= 1) {
-        toast.classList.add('taken');
-        toast.innerHTML = `
-          <h1 class="text-lg font-large">Too Slow!</h1>
-          <p>Already inscribed with the id </p> 
-          <a href="https://www.ord.io/${res[0]['Inscription']}" target="_blank"> <u>${res[0]['Inscription']}</u> </a>
-          `;
-    }
-    else if (res.length === 0) {
-        toast.classList.add('ok');
-        toast.innerHTML = `
-          <h1 class="text-lg font-large">Looks Good!</h1>
-          <p>No confirmed inscriptions found</p> 
-          <p style="color:#d43737;">NOTE: always double check <a href="https://unisat.io/" target="_blank"><u>Unisat</u></a> for unconfirmed inscriptions</p> 
-          `;
-    }
-    toastBox.appendChild(toast)
-    setTimeout(() => {
-        toast.remove();
-    }, 6000);
-}
-
-
 
 function showError() {
     let toast = document.createElement('div');
