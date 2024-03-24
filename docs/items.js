@@ -1,13 +1,13 @@
-// items.js generated on 2024-03-23 20:36:40 UTC
-//   - mint count at 7
+// items.js generated on 2024-03-24 10:27:12 UTC
+//   - mint count at 9
 
- const mintCount = 7;
+ const mintCount = 9;
  const items = [
   {
     "id": "4cea43a2a500ef996ef46e4b085dc9e4905c7815a6342c4352f08e5dc36347a3",
     "name": "#0",
     "image": "https://github.com/orc721/monkes21/raw/master/goldcoins/inscribe/goldcoin0.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 65647472
   },
   {
     "id": "7b296a179dc3a045de96005671d9757699357a8153ed747acf42f2e5bcf9b0ab",
@@ -19,7 +19,7 @@
     "id": "06bcf92cfcc8bcb487c3f65789050343d93cb84dfa998d06b084df2b81966533",
     "name": "#2",
     "image": "https://github.com/orc721/monkes21/raw/master/goldcoins/inscribe/goldcoin2.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 65637919
   },
   {
     "id": "06d6b59172ea1a264336b74c7f4255210335e8ddf2c2f3cb5664114576843f28",
