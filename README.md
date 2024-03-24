@@ -63,7 +63,9 @@ Let's do ....?  Yes, your ideas and comments more than welcome.
 See [Questions & Comments](#questions-comments)
 
 
-#### Monke Gold Coins (34px)  -  May 2024  -  Minting NOW
+### Minting NOW
+
+#### Monke Gold Coins (34px)  -  May 2024 
 
 the fam in 2x
 
