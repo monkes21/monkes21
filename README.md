@@ -47,18 +47,42 @@ note - no (crypto) wallet interaction. right-click & save (as .PNG) to get your 
 -->
 
 
+
+
+
+
 ### Upcoming - SOON!
 
 
-#### May 2024  
+#### June 2024  
 
 Let's do 21 Rock (& Block) Minis (12px)?
 Or 21 Doge (28px)? Why? Why Not?
 
 Let's do ....?  Yes, your ideas and comments more than welcome.
 See [Questions & Comments](#questions-comments)
-  
 
+
+#### Monke Gold Coins (34px)  -  May 2024  -  Minting NOW
+
+the fam in 2x
+
+![](i/goldcoins@2x.png)
+
+
+Find all 21 reference images (34×34px) in [/goldcoins/inscribe](goldcoins/inscribe):
+
+![](goldcoins/inscribe/goldcoin0.png)
+![](goldcoins/inscribe/goldcoin1.png)
+![](goldcoins/inscribe/goldcoin2.png)
+![](goldcoins/inscribe/goldcoin3.png)
+![](goldcoins/inscribe/goldcoin4.png)
+![](goldcoins/inscribe/goldcoin5.png)
+![](goldcoins/inscribe/goldcoin6.png)
+![](goldcoins/inscribe/goldcoin7.png)
+![](goldcoins/inscribe/goldcoin8.png)
+![](goldcoins/inscribe/goldcoin9.png)
+...
 
 
 
