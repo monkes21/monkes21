@@ -63,7 +63,10 @@ Let's do ....?  Yes, your ideas and comments more than welcome.
 See [Questions & Comments](#questions-comments)
 
 
-### Minting NOW
+
+
+### All Minted Out - Historic Editions (Max. 21) - Thank You - Ty 
+
 
 #### 21 Monke Gold Coins (34px)  -  May 2024 
 
@@ -87,8 +90,6 @@ Find all 21 reference images (34×34px) in [/goldcoins/inscribe](goldcoins/inscr
 ...
 
 
-
-### All Minted Out - Historic Editions (Max. 21) - Thank You - Ty 
 
 #### 21 Monke Minis (12px)  -  April 2024
 
