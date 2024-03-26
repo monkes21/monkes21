@@ -1,7 +1,7 @@
-// items.js generated on 2024-03-26 09:46:07 UTC
-//   - mint count at 4
+// items.js generated on 2024-03-26 10:55:11 UTC
+//   - mint count at 6
 
- const mintCount = 4;
+ const mintCount = 6;
  const items = [
   {
     "id": "abe7a32e93d9c7431c6dee927cea2b8ed93229f2c74c7a60af98c473a13c6387",
@@ -85,7 +85,7 @@
     "id": "d4be5776938baf1c7d91d87af07c4d7372011c7283aab51cff6675e9348d542f",
     "name": "#13",
     "image": "https://github.com/orc721/monkes21/raw/master/pennies/inscribe/penny13.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 65950180
   },
   {
     "id": "bc66c4c3d5e9e550f588c488bee07700faee68ea7bdb03d048edb7285998ade7",
@@ -115,7 +115,7 @@
     "id": "31b52f70df79cf31672f1f257271f23dd341c14c780e62e43ab9ff2c3a9a685e",
     "name": "#18",
     "image": "https://github.com/orc721/monkes21/raw/master/pennies/inscribe/penny18.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 65951428
   },
   {
     "id": "efecaffc6ef05d9b880e6ea42ae4f00e1ed524836488c65c3fc3619015b799d8",
