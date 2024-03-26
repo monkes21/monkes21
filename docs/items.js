@@ -1,7 +1,7 @@
-// items.js generated on 2024-03-26 10:55:11 UTC
-//   - mint count at 6
+// items.js generated on 2024-03-26 19:16:06 UTC
+//   - mint count at 13
 
- const mintCount = 6;
+ const mintCount = 13;
  const items = [
   {
     "id": "abe7a32e93d9c7431c6dee927cea2b8ed93229f2c74c7a60af98c473a13c6387",
@@ -19,13 +19,13 @@
     "id": "974dab31ed8972fde33e70a0301cb9e8d85618e999b7c577d569ceef4596aece",
     "name": "#2",
     "image": "https://github.com/orc721/monkes21/raw/master/pennies/inscribe/penny2.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 65953929
   },
   {
     "id": "25efc1c5e08b8de27392de8088f9424db2b8da6911318de549a736b845c5b36d",
     "name": "#3",
     "image": "https://github.com/orc721/monkes21/raw/master/pennies/inscribe/penny3.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 65952964
   },
   {
     "id": "80f0b49defa550169caff878d9c827e8b7c7d170f458003b39e1580086a6db7a",
@@ -43,25 +43,25 @@
     "id": "5db18c3adbb2d05607b7f3999e07d9079755ee0e618eb68a003329fa247bc3e8",
     "name": "#6",
     "image": "https://github.com/orc721/monkes21/raw/master/pennies/inscribe/penny6.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 65953930
   },
   {
     "id": "1a648fee7ea8b81b1805085776e95e1e912afd812493e47105def0cafbaf2c3f",
     "name": "#7",
     "image": "https://github.com/orc721/monkes21/raw/master/pennies/inscribe/penny7.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 65953931
   },
   {
     "id": "c9bbca3d3cb9a50752a37c1dddc3988d5df7d8daa516182cf2f1494897731ed4",
     "name": "#8",
     "image": "https://github.com/orc721/monkes21/raw/master/pennies/inscribe/penny8.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 65953932
   },
   {
     "id": "efa57378ec61f00d42dd7f1875b78699ad586897f3b8e52492edcfe920e7634c",
     "name": "#9",
     "image": "https://github.com/orc721/monkes21/raw/master/pennies/inscribe/penny9.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 65953933
   },
   {
     "id": "dfb5aaf9c3e44e74082ef0b4d22a752700ca062aa7d2d6b42a6541d003b0b27b",
@@ -91,7 +91,7 @@
     "id": "bc66c4c3d5e9e550f588c488bee07700faee68ea7bdb03d048edb7285998ade7",
     "name": "#14",
     "image": "https://github.com/orc721/monkes21/raw/master/pennies/inscribe/penny14.png",
-    "inscriptionNumber": 1
+    "inscriptionNumber": 65953928
   },
   {
     "id": "abe46f6f8b42ad1adcd9990edd7c3d1fbe39b40fb02dd1cd581eb44054144300",
