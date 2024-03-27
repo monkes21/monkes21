@@ -54,7 +54,7 @@ note - no (crypto) wallet interaction. right-click & save (as .PNG) to get your 
 ### Upcoming - SOON!
 
 
-#### June 2024  
+#### July 2024  
 
 Let's do 21 Rock (& Block) Minis (12px)?
 Or 21 Doge (28px)? Why? Why Not?
@@ -66,6 +66,32 @@ See [Questions & Comments](#questions-comments)
 
 
 ### All Minted Out - Historic Editions (Max. 21) - Thank You - Ty 
+
+
+#### 21 Monke Pennies / Cents (34px)  - June 2024 
+
+the fam in 2x
+
+![](i/pennies@2x.png)
+
+
+Find all 21 reference images (34×34px) in [/pennies/inscribe](pennies/inscribe):
+
+![](pennies/inscribe/penny0.png)
+![](pennies/inscribe/penny1.png)
+![](pennies/inscribe/penny2.png)
+![](pennies/inscribe/penny3.png)
+![](pennies/inscribe/penny4.png)
+![](pennies/inscribe/penny5.png)
+![](pennies/inscribe/penny6.png)
+![](pennies/inscribe/penny7.png)
+![](pennies/inscribe/penny8.png)
+![](pennies/inscribe/penny9.png)
+...
+
+
+Find all meta data in the [/pennies/pennies.csv](pennies/pennies.csv) tabular dataset.
+
 
 
 #### 21 Monke Gold Coins (34px)  -  May 2024 
@@ -88,6 +114,9 @@ Find all 21 reference images (34×34px) in [/goldcoins/inscribe](goldcoins/inscr
 ![](goldcoins/inscribe/goldcoin8.png)
 ![](goldcoins/inscribe/goldcoin9.png)
 ...
+
+
+Find all meta data in the [/goldcoins/goldcoins.csv](goldcoins/goldcoins.csv) tabular dataset.
 
 
 
@@ -113,6 +142,9 @@ Find all 21 reference images (12×12px) in [/minis/inscribe](minis/inscribe):
 ...
 
 
+Find all meta data in the [/minis/minis.csv](minis/minis.csv) tabular dataset.
+
+
 
 #### 21 (Monke) Sketches (1Bit / Black & White) - March 2024
 
@@ -136,6 +168,10 @@ Find all 21 reference images (57×57px) in [/sketches/inscribe](sketches/inscrib
 
 
 
+Find all meta data in the [/sketches/sketches.csv](sketches/sketches.csv) tabular dataset.
+
+
+
 #### 21 Rock Lines   - Feb 2024
 
 the fam in 4x
@@ -155,6 +191,9 @@ Find all 21 reference images (28×28px) in [/rocklines/inscribe](rocklines/inscr
 ![](rocklines/inscribe/rockline8.png)
 ![](rocklines/inscribe/rockline9.png)
 ...
+
+
+Find all meta data in the [/rocklines/rocklines.csv](rocklines/rocklines.csv) tabular dataset.
 
 
 
