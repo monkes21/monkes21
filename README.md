@@ -38,15 +38,14 @@ note - no (crypto) wallet interaction. right-click & save (as .PNG) to get your 
 
 ## Special Art Collection - Editions (21 Max. Each)
 
+<!-- 
+
 **Mint web**
 
   - <https://orc721.github.io/monkes21>
 
-<!-- 
   ![](i/monkes21-minis.png)
 -->
-
-
 
 
 
