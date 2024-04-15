@@ -12,6 +12,29 @@ For more updates, see [**@Monkes21 on X »**](https://twitter.com/monkes21)
 
 
 
+## MINTING NOW!
+
+### Monkes Twenty One (Bitmaps) - 2 Editions (21 Max. Each) 
+
+two sets (max 21) of bitmaps for the monkes twenty one (monkes21) 28px collection. note: all mints part of the official monkes21 collection (max 21000) 
+and replace (minted or unminted) duplicates or triplicates
+
+bitmaps vol. i fam in 2x
+
+![](i/bitmap@2x.png)
+
+
+bitmaps vol. ii fam in 2x
+
+![](i/bitmap2@2x.png)
+
+
+- <https://ordzaar.com/marketplace/collections/bitmaps>
+
+
+
+
+
 ## Do-It-Yourself (DIY) - Build Your Own Monkes 
 
 Yes, you can.  First quick (do-it-yourself) version.
